@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Clock";
+    src: url(BeautifulPoliceOfficer-rvv8x.ttf) format(truetype);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Clock";
+    background-color: #203A43;
+    color:white;
+}
+
+header h1{
+    font-size: 75px;
+    text-align: center;
+    text-decoration: dashed;
+}
+.clock h1{
+    font-size: 200px;
+    text-align: center;
+    font-weight: 200;
+    transform: scale(1.1);
+}
